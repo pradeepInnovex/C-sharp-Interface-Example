@@ -50,6 +50,14 @@ namespace ConsoleApplication1
 
             IEmployee el = new Employee();
             el.Paid();
+
+
+            for (int i = 0; i < 10; i++)
+            {
+                el.Paid();
+            }
+
+
         }
     }
 }
