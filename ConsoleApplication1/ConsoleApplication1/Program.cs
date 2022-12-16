@@ -16,7 +16,7 @@ namespace ConsoleApplication1
 
     interface ITemporaryEmployee
     {
-        void Paid();
+        void Paid2();
     }
 
     class Employee : IEmployee, ITemporaryEmployee
@@ -24,6 +24,13 @@ namespace ConsoleApplication1
         public void Paid()
         {
             Console.WriteLine("Payed..");
+        }
+        
+        public void Paid2(){
+        
+        Console.WriteLine("I2 Payed...");
+        
+        
         }
     }
 
@@ -35,6 +42,7 @@ namespace ConsoleApplication1
             Employee e1 = new Employee();
 
             e1.Paid();
+            e1.Paid2();
         }
     }
 }
