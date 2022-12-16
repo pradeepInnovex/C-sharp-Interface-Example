@@ -57,6 +57,12 @@ namespace ConsoleApplication1
                 el.Paid();
             }
 
+            if (1 > 10)
+            {
+
+                Console.WriteLine("Hello");
+            }
+
 
         }
     }
