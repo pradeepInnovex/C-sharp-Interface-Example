@@ -29,6 +29,7 @@ namespace ConsoleApplication1
         public void Paid2(){
         
         Console.WriteLine("I2 Payed...");
+        Console.ReadLine();
         
         
         }
@@ -43,6 +44,9 @@ namespace ConsoleApplication1
 
             e1.Paid();
             e1.Paid2();
+
+            IEmployee el = new Employee();
+            el.Paid();
         }
     }
 }
